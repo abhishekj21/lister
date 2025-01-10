@@ -151,7 +151,9 @@ button {
   width: fit-content;
   color: white;
 }
-
+button {
+  color: none;
+}
 h1 {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -175,12 +177,12 @@ h4 {
 h5 {
   font-size: 1rem;
   line-height: 1.5rem;
-  color: white;
 }
 
 h6 {
   font-size: 0.875rem;
   line-height: 1.25rem;
+  color: black;
 }
 
 p {
