@@ -182,7 +182,7 @@ h5 {
 h6 {
   font-size: 0.875rem;
   line-height: 1.25rem;
-  color: black;
+  /* color: black; */
 }
 
 p {
