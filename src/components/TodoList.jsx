@@ -11,10 +11,12 @@ export function TodoList(props) {
   return (
     <>
       {filterTodosList.map((todo, todoIndex) => {
+        const tempTodoIndex = todos.findIndex((val) => val.input == todo.input);
+
         return (
           <TodoCard
             key={todoIndex}
-            todoIndex={todoIndex}
+            todoIndex={tempTodoIndex}
             {...props}
             todo={todo}
           />
